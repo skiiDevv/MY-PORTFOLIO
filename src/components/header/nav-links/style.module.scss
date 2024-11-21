@@ -1,0 +1,30 @@
+@import "/src/global-style/index.scss";
+
+.cont {
+  height: 100%;
+  padding: 100px 40px 50px 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+
+  .links_box {
+
+    .link_cont {
+        perspective: 120px;
+        perspective-origin: bottom;
+    }
+    .links {
+      font-size: 2rem;
+    }
+  }
+
+  .social_box {
+    display: flex;
+    flex-wrap: wrap;
+    p {
+        width: 50%;
+    }
+  }
+}

@@ -2,3 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --background: #000;
+  --color-just-black: #0e100f;
+  --nav-bg: ;
+  --color-surface-white: #fffce1;
+  --color-green: #0ae448;
+  --color-lt-green: #abff84;
+  --gradient-macha: linear-gradient(
+    114.41deg,
+    var(--color-green) 20.74%,
+    var(--color-lt-green) 65.5%
+  );
+  --color-orangey: #ff8709;
+  --color-shockingly-pink: #f100cb;
+  --color-pink: #fec5fb;
+  --color-scroll-pink: #ffd7fd;
+}
+
