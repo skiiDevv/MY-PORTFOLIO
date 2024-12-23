@@ -1,30 +1,33 @@
 @import "/src/global-style/index.scss";
 
 .cont {
-  height: 100%;
-  padding: 100px 40px 50px 40px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 100%;
+    display: none;
+  @include sm_tablet {
+    height: 100%;
+    padding: 100px 40px 50px 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-between;
+    width: 100%;
 
-  .links_box {
-
-    .link_cont {
+    .links_box {
+      .link_cont {
         perspective: 120px;
         perspective-origin: bottom;
+      }
+      .links {
+        font-size: 2rem;
+      }
     }
-    .links {
-      font-size: 2rem;
-    }
-  }
 
-  .social_box {
-    display: flex;
-    flex-wrap: wrap;
-    p {
+    .social_box {
+      display: flex;
+      flex-wrap: wrap;
+      p {
         width: 50%;
+      }
     }
   }
 }

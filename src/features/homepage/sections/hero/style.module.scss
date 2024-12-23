@@ -1,1 +1,28 @@
 @import "/src/global-style/index.scss";
+
+.section {
+  background: var(--color-just-black);
+  height: 100vh;
+  width: 100%;
+  padding: 250px 20px 0 20px;
+
+  .container {
+    .hero_box {
+      .title_box {
+
+        .intro {
+            color: var(--color-surface-white);
+        font-size: 2.875rem;
+        font-weight: 600;
+        line-height: 0.9;
+        }
+        .desc {
+            color: var(--color-surface-white);
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.2;
+        }
+      }
+    }
+  }
+}

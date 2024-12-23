@@ -13,7 +13,7 @@ const NavMenu = ({
     <div onClick={() => setIsActive(!isActive)} className={`${ isActive ? styles.active_btn : styles.btn}`}>
       <motion.div
         animate={{ top: isActive ? "-100%" : "0" }}
-        transition={{ duration: 0.5, ease: [0.76, 0, 0.24, 1] }}
+        transition={{ duration: 0.75, ease: [0.76, 0, 0.24, 1] }}
         className={styles.slider}
       >
         <div className={styles.el}>Menu</div>
